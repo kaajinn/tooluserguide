@@ -6,7 +6,7 @@
 3. Within the root folder, create another new folder (name it anything you like). This will be the output folder used to store the output JSON files.
 4. Within the root folder, open a command terminal (Right-click > Open in Terminal) and enter `java -jar IDMInput <absolute path to .xlsx file> <absolute path to output folder>`.
     - For example, `java -jar IDMInput "C:\Users\User\Desktop\tool\data.xlsx" "C:\Users\User\Desktop\tool\output"`.
-4. Within the output folder, a number of JSON files will be generated, depending on the number of inputs within the `.xlsx` file.
+4. Within the output folder, a number of JSON files will be generated, depending on the number of input scenarios within the `.xlsx` file.
 
 ## Proper data formatting within the input `.xlsx` file
 1. Firstly, input `.xlsx` file should have the following sheets.
@@ -218,7 +218,7 @@
 </p>
 
 ## Example output JSON files
-- A single output JSON file is generated for each scenario, containing only that scenario's data. These files will be named `TSXXX` where `XXX` refers to the scenario identifcation number.
+- A single output JSON file is generated for each scenario, containing only that scenario's data. These files will be named `TSXXX`, where `XXX` refers to the scenario identifcation number.
 - An additional JSON file `AllTestData.` containing the data of all scenarios is also generated.
 - Example of a single output JSON file:
 <p align="center">
